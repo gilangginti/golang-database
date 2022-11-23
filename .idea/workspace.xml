@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="556c4ad0-6933-4362-b803-0e3a16813fd5" name="Changes" comment="" />
+    <list default="true" id="556c4ad0-6933-4362-b803-0e3a16813fd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/repository/comment_repository_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/comment_repository_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,16 +53,41 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestTransaction in golang-database">
-    <configuration name="TestAutoIncrement in golang-database" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestFindAll in golang-database/repository">
+    <configuration name="TestCommentInsert in golang-database/repository" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-database" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/repository" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="golang-database" />
+      <package value="golang-database/repository" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestAutoIncrement\E$" />
+      <pattern value="^\QTestCommentInsert\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindAll in golang-database/repository" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-database" />
+      <working_directory value="$PROJECT_DIR$/repository" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-database/repository" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFindAll\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindById in golang-database/repository" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-database" />
+      <working_directory value="$PROJECT_DIR$/repository" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-database/repository" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFindById\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestPrepareStatement in golang-database" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -85,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFindAll in golang-database/repository" />
+        <item itemvalue="Go Test.TestFindById in golang-database/repository" />
+        <item itemvalue="Go Test.TestCommentInsert in golang-database/repository" />
         <item itemvalue="Go Test.TestTransaction in golang-database" />
         <item itemvalue="Go Test.TestPrepareStatement in golang-database" />
-        <item itemvalue="Go Test.TestAutoIncrement in golang-database" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +147,11 @@
           <url>file://$PROJECT_DIR$/sql_test.go</url>
           <line>180</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/repository/comment_repository_impl.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
